@@ -1,4 +1,5 @@
 /* Main.css import */
 @import "./main.css";
 
-footer {}
+footer {
+    position: fixed;}
