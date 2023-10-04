@@ -1,5 +1,21 @@
 /* Main.css import */
 @import "./main.css";
 
-footer {
-    position: fixed;}
+
+
+/*Footer Styling */ 
+
+footer  {
+    position: fixed;
+    bottom: 0;
+    right: 0;
+    left: 0;
+    background-color: #085f63;
+    color: #fafafa;
+
+}
+
+footer .nav-footer a.nav-link {
+    color: #fafafa;
+    text-transform: uppercase;
+}
