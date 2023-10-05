@@ -101,7 +101,10 @@ width: 50%;
 }
 
 /* Cards Section */
-
+.card-title {
+    padding-left: 16px;
+    margin: 10px 0px 0px;
+}
 
 
 /*Footer Styling */
