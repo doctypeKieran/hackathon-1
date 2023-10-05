@@ -16,3 +16,7 @@ div.card .card-bottom {
     align-items: center;
     justify-content: space-between;
 }
+
+div.card .card-img-top {
+    object-fit: cover;
+}
