@@ -1,9 +1,9 @@
 /* Main.css import */
 @import "./main.css";
 
-
-
-.page-top {position: relative;}
+.page-top {
+    position: relative;
+}
 
 .main-title, .brand-button {
     position: absolute;
@@ -17,20 +17,8 @@
     top: 50%;
     left: 50%;
     transform: translate(-50%, -50%);
-    
-    
 }
 
-
-
-
-
-.content btn {color: white;}
-footer {
-    position: static;
-}
-
-#copyright-text {color: rgb(183, 182, 182);
-    font-size: 12px;
-
+.content .btn {
+    color: white;
 }
