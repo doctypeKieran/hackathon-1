@@ -6,3 +6,12 @@
     font-size: 24px;
     
 }
+
+footer {
+    position: static;
+}
+
+#copyright-text {color: rgb(183, 182, 182);
+    font-size: 12px;
+
+}
