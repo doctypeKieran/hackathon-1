@@ -9,6 +9,7 @@ font-family: "Roboto", sans-serif;
 
 body {
     animation: transitionIn 1s;
+   
 }
 
 html {
@@ -67,20 +68,30 @@ html {
 .txt-bold{
     font-weight: bolder;
 }
+
+.txt-bold-size{
+    font-size:25px
+}
+
 /* Sliding Images */
 
 .slide-image-width{
 width: 50%;
 }
 
+.slide-img{
+    object-fit: cover;
+    object-position: center;
+    height: 50vh;
+}
 
-
+.img-border{
+    border-radius: 50px;
+}
 
 /* Cards Section */
 
-.cards{
-justify-content: space-evenly;
-}
+
 
 /*Footer Styling */
 
