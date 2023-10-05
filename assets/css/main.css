@@ -54,6 +54,19 @@ html {
     background-color: #fff;
 }
 
+
+
+
+
+/* Alert Banner */
+
+.alert-color{
+    background: #facf5a;
+}
+
+.txt-bold{
+    font-weight: bolder;
+}
 /* Sliding Images */
 
 .slide-image-width{
