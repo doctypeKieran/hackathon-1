@@ -20,6 +20,15 @@ html {
 }
 
 
+/* Dividers */
+
+.divider {
+    height: 3px;
+    margin-left: 5%;
+    margin-right: 5%;
+    background-color: #e5e5e5;
+}
+
 /* Icon Sizing */
 
 .icon-size {
@@ -47,11 +56,18 @@ html {
 
 /* Sliding Images */
 
-.slide-image-height{
+.slide-image-width{
 width: 50%;
 }
 
 
+
+
+/* Cards Section */
+
+.cards{
+justify-content: space-evenly;
+}
 
 /*Footer Styling */
 
