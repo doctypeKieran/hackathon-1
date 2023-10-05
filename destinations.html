@@ -19,7 +19,6 @@
   <title>TravelTrek</title>
 </head>
 
-
 <body>
   <!-- Navbar  -->
   <nav class="navbar navbar-expand-lg bg-body-tertiary nav-bg-color">
@@ -59,89 +58,101 @@
     </div>
   </nav>
 
-  <!--Filters Section-->
-  <div class="container">
-    <h1 class="text-center mt-5">Filters:</h1>
-    <div class="filters-container mb-3">
-      <div class="row">
-        <div class="col-md-6 col-lg-3">
-          <div class="form-check form-check-inline">
-            <input class="form-check-input" type="checkbox" id="inlineCheckbox1" value="option1">
-            <label class="form-check-label" for="inlineCheckbox1">
-              Food
-            </label>
-          </div>
-        </div>
-        <div class="col-md-6 col-lg-3">
-          <div class="form-check form-check-inline">
-            <input class="form-check-input" type="checkbox" id="inlineCheckbox1" value="option1">
-            <label class="form-check-label" for="inlineCheckbox1">
-              Culture
-            </label>
-          </div>
-        </div>
-        <div class="col-md-6 col-lg-3">
-          <div class="form-check form-check-inline">
-            <input class="form-check-input" type="checkbox" id="inlineCheckbox1" value="option1">
-            <label class="form-check-label" for="inlineCheckbox1">
-              Landmarks
-            </label>
-          </div>
-        </div>
-        <div class="col-md-6 col-lg-3">
-          <div class="form-check form-check-inline">
-            <input class="form-check-input" type="checkbox" id="inlineCheckbox1" value="option1">
-            <label class="form-check-label" for="inlineCheckbox1">
-              Adrenaline Pumping Activites
-            </label>
-          </div>
-        </div>
-      </div>
-    </div>
 
-    <div class="row row-cols-1 row-cols-md-3 g-4">
-      <div class="col">
-        <div class="card">
-          <img src="./assets/images/landmarks/colosseum.jpeg" class="card-img-top" alt="roman colosseum">
-          <div class="card-body">
-            <h5 class="card-title">Rome, Italy</h5>
-            <p class="card-text">Experience the great history created by the romans, experience breathtaking coleseums
-              where great battles were once held.</p>
+  <main>
+    <!--Filters Section-->
+    <div class="container">
+      <section>
+        <h1 class="text-center mt-5">Filters:</h1>
+        <div class="filters-container mb-3">
+          <div class="row">
+            <div class="col-md-6 col-lg-3">
+              <div class="form-check form-check-inline">
+                <input class="form-check-input" type="checkbox" id="inlineCheckbox1" value="option1">
+                <label class="form-check-label" for="inlineCheckbox1">
+                  Food
+                </label>
+              </div>
+            </div>
+            <div class="col-md-6 col-lg-3">
+              <div class="form-check form-check-inline">
+                <input class="form-check-input" type="checkbox" id="inlineCheckbox1" value="option1">
+                <label class="form-check-label" for="inlineCheckbox1">
+                  Culture
+                </label>
+              </div>
+            </div>
+            <div class="col-md-6 col-lg-3">
+              <div class="form-check form-check-inline">
+                <input class="form-check-input" type="checkbox" id="inlineCheckbox1" value="option1">
+                <label class="form-check-label" for="inlineCheckbox1">
+                  Landmarks
+                </label>
+              </div>
+            </div>
+            <div class="col-md-6 col-lg-3">
+              <div class="form-check form-check-inline">
+                <input class="form-check-input" type="checkbox" id="inlineCheckbox1" value="option1">
+                <label class="form-check-label" for="inlineCheckbox1">
+                  Adrenaline Pumping Activites
+                </label>
+              </div>
+            </div>
           </div>
         </div>
-      </div>
-      <div class="col">
-        <div class="card">
-          <img src="./assets/images/adventure/tokyo.jpg" class="card-img-top" alt="tokyo">
-          <div class="card-body">
-            <h5 class="card-title">Tokyo, Japan</h5>
-            <p class="card-text">Visit one of the population dense cities in the world, where work culture is great and
-              there is a large array of activities to be found. Including a wealthy nightlife</p>
+      </section>
+
+      <!-- Destinations cards section -->
+      <section>
+        <div class="row row-cols-1 row-cols-md-3 g-4">
+          <div class="col">
+            <article class="card">
+              <img src="./assets/images/landmarks/colosseum.jpeg" class="card-img-top" alt="roman colosseum">
+              <div class="card-body">
+                <h5 class="card-title">Rome, Italy</h5>
+                <p class="card-text">Experience the great history created by the romans, experience breathtaking
+                  coleseums
+                  where great battles were once held.</p>
+              </div>
+            </article>
+          </div>
+          <div class="col">
+            <article class="card">
+              <img src="./assets/images/adventure/tokyo.jpg" class="card-img-top" alt="tokyo">
+              <div class="card-body">
+                <h5 class="card-title">Tokyo, Japan</h5>
+                <p class="card-text">Visit one of the population dense cities in the world, where work culture is great
+                  and
+                  there is a large array of activities to be found. Including a wealthy nightlife</p>
+              </div>
+            </article>
+          </div>
+          <div class="col">
+            <article class="card">
+              <img src="./assets/images/adventure/scotland.jpg" class="card-img-top" alt="scottish highlands">
+              <div class="card-body">
+                <h5 class="card-title">Scotland</h5>
+                <p class="card-text">Drive around the highlands, visiting the beautiful scenery that the scottish
+                  highlands
+                  have to offer, climbing mountains and seeing a beautiful part of the world.</p>
+              </div>
+            </article>
+          </div>
+          <div class="col">
+            <article class="card">
+              <img src="./assets/images/landmarks/eiffel-tower.jpeg" class="card-img-top" alt="eiffel tower">
+              <div class="card-body">
+                <h5 class="card-title">Paris, France</h5>
+                <p class="card-text">So much to do for one place, visit the eiffel tower, try some of the finest and
+                  most
+                  refined cuisine in the world.</p>
+              </div>
+            </article>
           </div>
         </div>
-      </div>
-      <div class="col">
-        <div class="card">
-          <img src="./assets/images/adventure/scotland.jpg" class="card-img-top" alt="scottish highlands">
-          <div class="card-body">
-            <h5 class="card-title">Scotland</h5>
-            <p class="card-text">Drive around the highlands, visiting the beautiful scenery that the scottish highlands
-              have to offer, climbing mountains and seeing a beautiful part of the world.</p>
-          </div>
-        </div>
-      </div>
-      <div class="col">
-        <div class="card">
-          <img src="./assets/images/landmarks/eiffel-tower.jpeg" class="card-img-top" alt="eiffel tower">
-          <div class="card-body">
-            <h5 class="card-title">Paris, France</h5>
-            <p class="card-text">So much to do for one place, visit the eiffel tower, try some of the finest and most
-              refined cuisine in the world.</p>
-          </div>
-        </div>
-      </div>
+      </section>
     </div>
-  </div>
+  </main>
 
   <!-- footer -->
   <footer class="py-lg-10 py-2 mt-5">
@@ -157,7 +168,6 @@
         </div>
         <!-- Desc -->
         <div class="col-lg-8 col-md-12 col-12 my-3">
-
           <div class="socials-container my-6">
             <!--Facebook-->
             <a href="https://www.facebook.com/" target="_blank" class="text-muted me-4"
@@ -169,7 +179,6 @@
               aria-label="Twitter (opens in new tab)">
               <i class="fab fa-twitter b-0"></i>
             </a>
-
             <a href="https://www.instagram.com/" target="_blank" class="text-muted"
               aria-label="Instagram (opens in new tab)">
               <i class="fab fa-square-instagram "></i>
