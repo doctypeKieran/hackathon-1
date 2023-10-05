@@ -1,17 +1,18 @@
 /* Main.css import */
 @import "./main.css";
 
-.socials-container a i {
-    color: white;
-    font-size: 24px;
-    
+div.card {
+    height: 550px;
 }
 
-footer {
-    position: static;
+div.card .card-body {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
 }
 
-#copyright-text {color: rgb(183, 182, 182);
-    font-size: 12px;
-
+div.card .card-bottom {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
 }
