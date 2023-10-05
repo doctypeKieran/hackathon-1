@@ -55,8 +55,16 @@ html {
     background-color: #fff;
 }
 
+/* Buttons */
 
+.button-color{
+    background-color: #facf5a;
+    transition: all .3s ease;
+}
 
+.button-color:hover{
+    background-color: #ff5959;
+}
 
 
 /* Alert Banner */
@@ -111,7 +119,22 @@ footer .nav-footer a.nav-link {
 }
 
 
+/* Footer */
 
+.socials-container a i {
+    color: white;
+    font-size: 24px;
+    
+}
+
+footer {
+    position: static;
+}
+
+#copyright-text {color: rgb(183, 182, 182);
+    font-size: 12px;
+
+}
 
 
 
@@ -137,3 +160,5 @@ footer .nav-footer a.nav-link {
         rotate: 0;
     }
 }
+
+
