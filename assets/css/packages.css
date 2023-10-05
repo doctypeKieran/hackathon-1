@@ -1,23 +1,23 @@
 /* Main.css import */
 @import "./main.css";
 
-div.card {
+article.card {
     height: 550px;
     max-height: 550px;
 }
 
-div.card .card-body {
+article.card .card-body {
     display: flex;
     flex-direction: column;
     justify-content: space-between;
 }
 
-div.card .card-bottom {
+article.card .card-bottom {
     display: flex;
     align-items: center;
     justify-content: space-between;
 }
 
-div.card .card-img-top {
+article.card .card-img-top {
     object-fit: cover;
 }
