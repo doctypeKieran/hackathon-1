@@ -4,3 +4,20 @@
 
 
 .page-top {position: relative;}
+
+.content {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    
+}
+
+
+footer {
+    position: static;
+}
+
+#copyright-text {color: rgb(183, 182, 182);
+    font-size: 12px;
+
+}
