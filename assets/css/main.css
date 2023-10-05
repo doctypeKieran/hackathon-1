@@ -7,7 +7,7 @@ font-family: "Poppins", sans-serif;
 font-family: "Roboto", sans-serif;
  */
 
-body{
+body {
     animation: transitionIn 1s;
 }
 
@@ -15,40 +15,56 @@ html {
     font-family: "Poppins", sans-serif;
 }
 
-.heading{
+.heading {
     font-family: "Roboto", sans-serif;
 }
 
 
 /* Icon Sizing */
 
-.icon-size{
-margin-left: 10px;
-height: 100%;
-border: 1px solid black;
-border-radius: 50%;
-padding: 5px;
-color: #000;
+.icon-size {
+    margin-left: 10px;
+    height: 100%;
+    border: 1px solid black;
+    border-radius: 50%;
+    padding: 5px;
+    color: #000;
 }
-    
+
 /* Navbar Custom CSS */
 
-.text-style{
-    font-family: "Poppins", sans-serif; 
+.text-style {
+    font-family: "Poppins", sans-serif;
 }
 
-.heading{
+.heading {
     font-family: "Roboto", sans-serif;
 }
 
-.nav-bg-color{
-    background-color: #fff ;
+.nav-bg-color {
+    background-color: #fff;
 }
 
 
 
 
 
+/*Footer Styling */
+
+footer {
+    position: fixed;
+    bottom: 0;
+    right: 0;
+    left: 0;
+    background-color: #085f63;
+    color: #fafafa;
+
+}
+
+footer .nav-footer a.nav-link {
+    color: #fafafa;
+    text-transform: uppercase;
+}
 
 
 
