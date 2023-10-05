@@ -3,6 +3,7 @@
 
 div.card {
     height: 550px;
+    max-height: 550px;
 }
 
 div.card .card-body {
