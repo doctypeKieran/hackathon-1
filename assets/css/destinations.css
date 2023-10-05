@@ -3,5 +3,8 @@
 
 /* Filters container */
 .filters-container {
-    background-color: red;
+    padding: 16px;
+    background-color: #085f63;
+    color: white;
+    border-radius: 12px;
 }
