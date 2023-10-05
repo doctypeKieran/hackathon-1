@@ -1,2 +1,7 @@
 /* Main.css import */
 @import "./main.css";
+
+/* Filters container */
+.filters-container {
+    background-color: red;
+}
