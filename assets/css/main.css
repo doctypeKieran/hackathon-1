@@ -107,10 +107,6 @@ width: 50%;
 /*Footer Styling */
 
 footer {
-    position: fixed;
-    bottom: 0;
-    right: 0;
-    left: 0;
     background-color: #085f63;
     color: #fafafa;
 
@@ -121,17 +117,10 @@ footer .nav-footer a.nav-link {
     text-transform: uppercase;
 }
 
-
-/* Footer */
-
 .socials-container a i {
     color: white;
     font-size: 24px;
     
-}
-
-footer {
-    position: static;
 }
 
 #copyright-text {color: rgb(183, 182, 182);

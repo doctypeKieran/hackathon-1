@@ -1,2 +1,10 @@
 /* Main.css import */
 @import "./main.css";
+
+/* Filters container */
+.filters-container {
+    padding: 16px;
+    background-color: #085f63;
+    color: white;
+    border-radius: 12px;
+}
