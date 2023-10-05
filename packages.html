@@ -22,41 +22,43 @@
 
 <body>
   <!-- Navbar  -->
-  <nav class="navbar navbar-expand-lg bg-body-tertiary">
+  <nav class="navbar navbar-expand-lg bg-body-tertiary nav-bg-color">
     <div class="container-fluid">
-      <a class="navbar-brand heading" href="index.html"><i class="fa-solid fa-plane-up"></i> TravelTrek</a>
-      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent"
-        aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-        <span class="navbar-toggler-icon"></span>
-      </button>
-      <div class="collapse navbar-collapse text-style" id="navbarSupportedContent">
-        <ul class="navbar-nav me-auto mb-2 mb-lg-0">
-          <li class="nav-item">
-            <a class="nav-link active" aria-current="page" href="index.html">Home</a>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link" href="destinations.html">Destinations</a>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link" aria-disabled="true" href="what-to-do.html">What To Do</a>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link" href="packages.html">Packages & Deals</a>
-          </li>
+        <a class="navbar-brand heading" href="#"><i class="fa-solid fa-plane-up"></i> TravelTrek</a>
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+            data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false"
+            aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse text-style" id="navbarSupportedContent">
+            <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                <li class="nav-item">
+                    <a class="nav-link active" aria-current="page" href="index.html">Home</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="destinations.html">Destinations</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="what-to-do.html">What To Do</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="packages.html">Packages & Deals</a>
+                </li>
+                <li class="nav-item d-block d-lg-none">
+                    <a class="nav-link" href="packages.html">Sign In / Sign Up</a>
+                </li>
+            </ul>
+            <form class="d-flex" role="search">
+                <input class="form-control me-2" type="search" placeholder="Find a trip" aria-label="Search">
+                <button class="btn pr-4 btn-outline button-color" type="submit">Search</button>
+            </form>
+            <!-- End of Navbar -->
 
-
-        </ul>
-        <form class="d-flex" role="search">
-          <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
-          <button class="btn btn-outline-success pr-4" type="submit">Search</button>
-
-        </form>
-        <!-- End of Navbar -->
-        <!-- Log in Icon -->
-        <a href="#"> <i class="fa-solid fa-user icon-size"></i></a>
-      </div>
-    </div>
-  </nav>
+            <!-- Log in Icon -->
+            <a href="#" class="d-none d-lg-block"> <i class="fa-solid fa-user icon-size"></i></a>
+        </div>
+    </div>3
+</nav>
 
   <!-- Section Packages Start -->
   <section class="packages" id="packages">
