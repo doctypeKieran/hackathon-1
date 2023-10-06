@@ -119,7 +119,7 @@ html {
 footer {
     background-color: #085f63;
     color: #fafafa;
-
+    font-family: "Poppins", sans-serif;
 }
 
 footer .nav-footer a.nav-link {
