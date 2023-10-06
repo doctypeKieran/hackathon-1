@@ -45,6 +45,14 @@
     color: white;
 }
 
+/* Filters list */
+.filters-container {
+    background: linear-gradient(to bottom, #085f63, #49beb7);
+    color: white;
+    border-radius: 12px;
+    padding: 16px;
+}
+
 /* Cards */
 article.card .card-body {
     display: flex;
