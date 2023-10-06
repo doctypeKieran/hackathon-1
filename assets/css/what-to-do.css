@@ -3,6 +3,14 @@
 
 .page-top {
     position: relative;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.page-top img.img-fluid {
+    width: 100%;
 }
 
 .main-title,
@@ -47,4 +55,5 @@ article.card .card-bottom {
 
 article.card .card-img-top {
     object-fit: cover;
+    object-position: center;
 }
