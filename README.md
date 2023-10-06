@@ -5,6 +5,8 @@ A Website created to assist Adventure Seekers in finding their next destination.
 
 Although a Travel Guide Website, we have biased it towards those looking to experience different cultures, history, landscapes and adventures to go on.
 
+![Banner image of home page](https://i.ibb.co/d54kwzL/readme-ss-1.png)
+
 ## Project Setup
 
 ### Persona and User Stories
@@ -66,6 +68,7 @@ The UXD talked with the team to discuss potential colour schemes.  For a Travel 
 ## Features
 
 ### Navigation bar
+![Navigation bar](https://i.ibb.co/pPG3wDF/readme-ss-2.png)
 
 - The layout of the Navbar was agreed upon during the wireframing stage and then implemented by the Front-End Developer.
 
@@ -73,17 +76,43 @@ The UXD talked with the team to discuss potential colour schemes.  For a Travel 
 
 ### Searchbar
 
+![Search bar](https://i.ibb.co/5R5nsR3/readme-ss-3.png)
+
 A searchbar was added to the Navbar, a feature which would allow users to search for their ideal destination, places to visit, historical landmarks, etc.  The searchbar is present for aesthetic purposes and has no functionality.
-
-### Carousel
-
-A carousel was agreed to be a good idea for attracting users on their first visit to the sight.  A transitioning range of scenic, captivating images would provide first-time users an insight of what the site has to offer.
 
 ### Alert banner
 
+![Alert banner](https://i.ibb.co/J283X5r/readme-ss-4.png)
+
 An alert banner was agreed to sit on top of the carousel, providing users with information that a deal was currently available.  Using bright colours and centered and bold text, users would be drawn to the information whilst maintaining the colour scheme and overall visual appeal of the site.
 
+### Booking Form
+
+![](https://i.ibb.co/jzXdhTw/readme-ss.png)
+
+A booking form was added below the alert banner so that users could book a quick holiday should they desire to.  The booking form is contained in an eye-catching banner drawing the user to it on their first visit to the page.
+
+### Carousel
+
+![Carousel of images](https://i.ibb.co/Y0sYzsQ/readme-ss-5.png)
+
+A carousel was agreed to be a good idea for attracting users on their first visit to the sight.  A transitioning range of scenic, captivating images would provide first-time users an insight of what the site has to offer.
+
+### Cards
+
+![Card layout](https://i.ibb.co/WGT3wys/readme-ss-6.png)
+
+Card components were a key feature of our website, displaying information in a sleek and accessible collection of cards which contained data for holidays, destinations, activities, etc.
+
+### Filters
+
+![List of filters](https://i.ibb.co/WtjvRhx/readme-ss-7.png)
+
+Filters were implemented into the website so that users would be able to filter and narrow down choices, therefore making it simpler for a user to find precisely what they're looking for within a selected display of options.
+
 ### Footer
+
+![Footer with details](https://i.ibb.co/Xp4F2hL/readme-ss-8.png)
 
 A Bootstrap footer was implemented into each page containing information such as contact information, socials icons and copyright text.  The colours were adjusted to remain in conjunction with the agreed colour palette.
 
@@ -103,6 +132,8 @@ A Bootstrap footer was implemented into each page containing information such as
 
 ### What To Do page
 
+- Contains information on activities for more thrill-seeking adventurers.
+- Contains a non-functional filter/checklist so users can narrow down activities between cycling, trekking/hiking, etc.
 
 ### Packages & Deals page
 
@@ -110,16 +141,22 @@ A Bootstrap footer was implemented into each page containing information such as
 
 - Contains a card layout displaying the desired package choices to the user (by standard, a group of cards with hard-coded data).
 
-Sharing some available packages provided by the website that are tailored to suit our target audience that some are heavily cultural and some are heavily adrenaline based, with some more balanced than others.
+- Sharing some available packages provided by the website that are tailored to suit our target audience that some are heavily cultural and some are heavily adrenaline based, with some more balanced than others.
 
-- Carousel
-Created for easy access off the bat for the user to assist in their search for what they want.
+## Responsive / Reactive Layout
 
-- Responsive / Reactive Layout
-having a reactive and responsive layout is always good to take a website a step futher for user convinience and access.
+The website has been fully tested for responsiveness and responds seamlessly to different viewports, made to be fully accessible on phones, tablets, laptops and desktops.
 
+## Validation
+
+All HTML and CSS code passes through the respective validators with no issues, errors or warnings.
+
+## Semantic and Accessibility
+
+- All pages have been checked over to ensure semantic HTML is followed, making it easier for future developers and collaborators to work on the code in this project.
+
+- All images have been ensured to have alts, links with aria labels, etc.
 
 ## Documentation
 
 [Planning & Documentation](https://docs.google.com/document/d/1tqDBd0bPHvkPgRs7xNdr_g0WUwbV-16S6F5Qaxa8nnA)
-
