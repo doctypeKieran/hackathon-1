@@ -20,6 +20,12 @@ html {
     font-family: "Roboto", sans-serif;
 }
 
+/* Hidden heading */
+
+.hidden-heading {
+    display: none;
+}
+
 
 /* Dividers */
 
