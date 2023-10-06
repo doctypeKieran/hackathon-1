@@ -133,6 +133,12 @@ article.card {
     font-family: "Poppins", sans-serif;
 }
 
+.card .home-card-body {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
 /*Footer Styling */
 
 footer {
