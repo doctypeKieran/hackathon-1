@@ -5,7 +5,9 @@
     position: relative;
 }
 
-.main-title, .brand-button, #cta-btn {
+.main-title,
+.brand-button,
+#cta-btn {
     position: absolute;
 
 }
@@ -30,3 +32,19 @@
     color: white;
 }
 
+/* Cards */
+article.card .card-body {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+article.card .card-bottom {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+article.card .card-img-top {
+    object-fit: cover;
+}
