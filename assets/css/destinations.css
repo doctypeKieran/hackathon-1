@@ -8,3 +8,8 @@
     color: white;
     border-radius: 12px;
 }
+
+/* Checkbox inputs */
+input[type=checkbox] {
+    cursor: pointer;
+}
