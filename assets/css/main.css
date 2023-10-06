@@ -16,8 +16,18 @@ html {
     font-family: "Poppins", sans-serif;
 }
 
+/* Headings */
 .heading {
     font-family: "Roboto", sans-serif;
+}
+
+h3#book-now-heading {
+    font-family: "Roboto", sans-serif;
+}
+/* Hidden heading */
+
+.hidden-heading {
+    display: none;
 }
 
 
@@ -107,13 +117,17 @@ html {
     margin: 10px 0px 0px;
 }
 
+.card .card-body .card-text {
+    font-family: "Poppins", sans-serif;
+}
+
 
 /*Footer Styling */
 
 footer {
     background-color: #085f63;
     color: #fafafa;
-
+    font-family: "Poppins", sans-serif;
 }
 
 footer .nav-footer a.nav-link {
