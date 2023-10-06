@@ -102,6 +102,11 @@ article.card {
     font-size: 25px
 }
 
+/* Book now container */
+.book-now-container {
+    border-radius: 16px;
+}
+
 /* Sliding Images */
 
 .slide-image-width {
@@ -115,7 +120,7 @@ article.card {
 }
 
 .img-border {
-    border-radius: 50px;
+    border-radius: 20px;
 }
 
 /* Cards Section */
