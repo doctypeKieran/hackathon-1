@@ -1,1 +1,6 @@
 @import "./main.css";
+
+
+.signup-height{
+overflow: hidden;
+}
