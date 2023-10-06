@@ -5,8 +5,15 @@
     position: relative;
 }
 
-.main-title, .brand-button {
+.main-title, .brand-button, #cta-btn {
     position: absolute;
+
+}
+
+#cta-btn {
+    top: 90%;
+    left: 50%;
+    transform: translate(-50%, -50%);
 }
 
 .main-title {
@@ -22,3 +29,4 @@
 .content .btn {
     color: white;
 }
+
