@@ -1,6 +1,6 @@
+/* Google font imports */
 @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@100;300;400;500;700&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500;700&display=swap');
-
 
 /* 
 font-family: "Poppins", sans-serif; 
@@ -29,7 +29,6 @@ h3#book-now-heading {
 .hidden-heading {
     display: none;
 }
-
 
 /* Dividers */
 
@@ -80,7 +79,6 @@ h3#book-now-heading {
     background-color: #ff5959;
 }
 
-
 /* Alert Banner */
 
 .alert-color {
@@ -121,7 +119,6 @@ h3#book-now-heading {
     font-family: "Poppins", sans-serif;
 }
 
-
 /*Footer Styling */
 
 footer {
@@ -138,7 +135,11 @@ footer .nav-footer a.nav-link {
 .socials-container a i {
     color: white;
     font-size: 24px;
+    transition: all .3s ease;
+}
 
+.socials-container a i:hover {
+    color: #ff5959;
 }
 
 #copyright-text {
@@ -147,21 +148,11 @@ footer .nav-footer a.nav-link {
 
 }
 
-
-
-
-
-
 /* Template */
-/*                                   Just copy and paste this into the container to outline  */
+/* Just copy and paste this into the container to outline  */
 .border-color {
     border: 2px solid black;
 }
-
-
-
-
-
 
 /* Animation when the page loads */
 @keyframes transitionIn {
@@ -175,7 +166,6 @@ footer .nav-footer a.nav-link {
         rotate: 0;
     }
 }
-
 
 /* Media Queries */
 
