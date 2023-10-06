@@ -16,10 +16,14 @@ html {
     font-family: "Poppins", sans-serif;
 }
 
+/* Headings */
 .heading {
     font-family: "Roboto", sans-serif;
 }
 
+h3#book-now-heading {
+    font-family: "Roboto", sans-serif;
+}
 /* Hidden heading */
 
 .hidden-heading {
@@ -111,6 +115,10 @@ html {
 .card-title {
     padding-left: 16px;
     margin: 10px 0px 0px;
+}
+
+.card .card-body .card-text {
+    font-family: "Poppins", sans-serif;
 }
 
 
