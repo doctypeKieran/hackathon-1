@@ -76,6 +76,20 @@ article.card .card-img-top {
     object-position: center;
 }
 
+/* page bottom */
+
+
+.welcome-h5 {
+    font-size: 20px;
+    font-weight: bold;
+    font-family: "Roboto", sans-serif;
+}
+
+.welcome-p {font-family: "poppins",sans-serif;
+color: rgb(115, 115, 115);
+font-size: 24px;
+}
+
 /* Media Queries */
 
 @media screen and (max-width: 1200px) {
