@@ -71,231 +71,265 @@
         </div>
         <!-- Home Section End -->
         <!-- Section Cards Start -->
-        <section class="what-to-do-cards" id="what-to-do">
-            <section class="activities" id="activities">
-                <div class="container">
-
-                    <div class="main-txt text-center text-uppercase mt-3 mb-3">
-                        <h1 class="heading">The latest from TravelTrek</h1>
-                    </div>
-                    <div class="row" style="margin-top: 30px;">
-                        <div class="col-md-6 col-lg-4 py-3 py-lg-0">
-                            <!-- Card 1 - Peru -->
-                            <article class="card">
-                                <img src="./assets/images/adventure/mont-blanc-trek.jpg" class="card-img-top h-50"
-                                    alt="Picture of Mont Blanc">
-                                <div class="card-body h-50">
-                                    <div class="card-body-title">
-                                        <h3 class="heading">Trekking in Peru</h3>
-                                        <p>
-                                            From The Inca Trail to Everest Base Camp, explore the world through trekking
-                                        </p>
-                                    </div>
-                                    <div class="card-bottom">
-                                        <div class="card-rating-price">
-                                            <div class="star">
-                                                <i class="fa-solid fa-star"></i>
-                                                <i class="fa-solid fa-star"></i>
-                                                <i class="fa-solid fa-star"></i>
-                                                <i class="fa-solid fa-star "></i>
-                                                <i class="fa-regular fa-star "></i>
-                                            </div>
-                                            <h6>Price: <strong>£499</strong></h6>
-                                        </div>
-                                        <a class="btn button-color" href="#book">Book Now</a>
-                                    </div>
-                                </div>
-                            </article>
+        <div class="container">
+            <div class="main-txt text-center text-uppercase mt-3 mb-3">
+                <h2 class="heading">The latest from TravelTrek</h2>
+            </div>
+            <section class="filters-section">
+                <h2 class="text-center mt-5">Filters:</h2>
+                <form class="filters-container mb-3">
+                    <div class="row">
+                        <div class="col-md-6 col-lg-4 my-3 md-0">
+                            <div class="form-check form-check-inline">
+                                <input class="form-check-input" type="checkbox" id="inlineCheckbox1" value="Trekking">
+                                <label class="form-check-label" for="inlineCheckbox1">
+                                    Trekking
+                                </label>
+                            </div>
                         </div>
-                        <div class="col-md-6 col-lg-4 py-3 py-lg-0">
-                            <!-- Card 2 - Namibia -->
-                            <article class="card">
-                                <img src="./assets/images/adventure/cycling-desert.jpeg" class="card-img-top h-50"
-                                    alt="Picture of desert with cyclists">
-                                <div class="card-body h-50">
-                                    <div class="card-body-title">
-                                        <h3 class="heading">Pro Bike Race in Namibia</h3>
-                                        <p>
-                                            Ride through vast dune deserts, along the Skeleton Coast, and sleep under
-                                            the Milky Way.
-                                        </p>
-                                    </div>
-                                    <div class="card-bottom">
-                                        <div class="card-rating-price">
-                                            <div class="star">
-                                                <i class="fa-solid fa-star"></i>
-                                                <i class="fa-solid fa-star"></i>
-                                                <i class="fa-solid fa-star"></i>
-                                                <i class="fa-regular fa-star "></i>
-                                                <i class="fa-regular fa-star "></i>
-                                            </div>
-                                            <h6>Price: <strong>£1,499</strong></h6>
-                                        </div>
-                                        <a class="btn button-color" href="#book">Book Now</a>
-                                    </div>
-                                </div>
-                            </article>
+                        <div class="col-md-6 col-lg-4 my-3 md-0">
+                            <div class="form-check form-check-inline">
+                                <input class="form-check-input" type="checkbox" id="inlineCheckbox2" value="Cycling">
+                                <label class="form-check-label" for="inlineCheckbox2">
+                                    Cycling
+                                </label>
+                            </div>
                         </div>
-
-                        <div class="col-md-6 col-lg-4 py-3 py-lg-0">
-                            <!-- Card 3 - Thailand -->
-                            <article class="card">
-                                <img src="./assets/images/landmarks/canoeing-thailand.jpeg" class="card-img-top h-50"
-                                    alt="Picture of canoeing in Thailand">
-                                <div class="card-body h-50">
-                                    <div class="card-body-title">
-                                        <h3 class="heading">Canoeing in Thailand</h3>
-                                        <p>
-                                            Kayak through caves and mangroves at Koh Panak and surreal rock formations
-                                            at Hong Island. Soak up views of James Bond Island then lounge on the beach
-                                            at Lawa Island.
-                                        </p>
-                                    </div>
-                                    <div class="card-bottom">
-                                        <div class="card-rating-price">
-                                            <div class="star">
-                                                <i class="fa-solid fa-star"></i>
-                                                <i class="fa-solid fa-star"></i>
-                                                <i class="fa-solid fa-star"></i>
-                                                <i class="fa-solid fa-star "></i>
-                                                <i class="fa-solid fa-star "></i>
-                                            </div>
-                                            <h6>Price: <strong>£799</strong></h6>
-                                        </div>
-                                        <a class="btn button-color" href="#book">Book Now</a>
-                                    </div>
-                                </div>
-                            </article>
+                        <div class="col-md-6 col-lg-4 my-3 md-0">
+                            <div class="form-check form-check-inline">
+                                <input class="form-check-input" type="checkbox" id="inlineCheckbox3"
+                                    value="Watersports">
+                                <label class="form-check-label" for="inlineCheckbox3">
+                                    Watersports
+                                </label>
+                            </div>
                         </div>
                     </div>
-                    <div class="row" style="margin-top: 30px;">
-                        <div class="col-md-6 col-lg-4 py-3 py-lg-0">
-                            <!-- Card 4 - Bali -->
-                            <article class="card">
-                                <img src="./assets/images/landmarks/snorkling-bali.jpeg" class="card-img-top h-50"
-                                    alt="Underwater in Bali">
-                                <div class="card-body h-50">
-                                    <div class="card-body-title">
-                                        <h3 class="heading">Snorkling in Bali</h3>
-                                        <p>
-                                            Far from the busy south coast, the peaceful coastal village of Pemuteran
-                                            lies on the border of West Bali National Park and serves as the main gateway
-                                            to Menjangan island, considered the best destination for snorkeling and
-                                            diving in all of Bali.
-                                        </p>
-                                    </div>
-                                    <div class="card-bottom">
-                                        <div class="card-rating-price">
-                                            <div class="star">
-                                                <i class="fa-solid fa-star"></i>
-                                                <i class="fa-solid fa-star"></i>
-                                                <i class="fa-solid fa-star"></i>
-                                                <i class="fa-regular fa-star "></i>
-                                                <i class="fa-regular fa-star "></i>
-                                            </div>
-                                            <h6>Price: <strong>£1,399</strong></h6>
-                                        </div>
-                                        <a class="btn button-color" href="#book">Book Now</a>
-                                    </div>
-                                </div>
-                            </article>
-                        </div>
-
-                        <div class="col-md-6 col-lg-4 py-3 py-lg-0">
-                            <!-- Card 5 - Amalfi Coast -->
-                            <article class="card">
-                                <img src="./assets/images/landmarks/amalfi-coast1.jpeg" class="card-img-top h-50"
-                                    alt="Picture of Amalfi Coast">
-                                <div class="card-body h-50">
-                                    <div class="card-body-title">
-                                        <h3 class="heading">Amalfi Coast Trek</h3>
-                                        <p>
-                                            By far one of the most famous hiking trails in the Amalfi Coast, the Path of
-                                            the Gods, otherwise known as 'Sentiero degli Dei', was carved out by Greek
-                                            Settlers in as early as the 8th Century.
-                                        </p>
-                                    </div>
-                                    <div class="card-bottom">
-                                        <div class="card-rating-price">
-                                            <div class="star">
-                                                <i class="fa-solid fa-star"></i>
-                                                <i class="fa-solid fa-star"></i>
-                                                <i class="fa-solid fa-star"></i>
-                                                <i class="fa-solid fa-star "></i>
-                                                <i class="fa-regular fa-star "></i>
-                                            </div>
-                                            <h6>Price: <strong>£399</strong></h6>
-                                        </div>
-                                        <a class="btn button-color" href="#book">Book Now</a>
-                                    </div>
-                                </div>
-                            </article>
-                        </div>
-
-                        <div class="col-md-6 col-lg-4 py-3 py-lg-0">
-                            <!-- Card 6 - Mount Toubkal -->
-                            <article class="card">
-                                <img src="./assets/images/landmarks/mount-toubkal1.jpeg" class="card-img-top h-50"
-                                    alt="Picture of Mount Toubkal">
-                                <div class="card-body h-50">
-                                    <div class="card-body-title">
-                                        <h3 class="heading">Climb Mount Toubkal</h3>
-                                        <p>
-                                            Visit well-known attractions like Giza Pyramid Complex, Great Sphinx of Giza
-                                            and Egyptian Museum.
-                                        </p>
-                                    </div>
-                                    <div class="card-bottom">
-                                        <div class="card-rating-price">
-                                            <div class="star">
-                                                <i class="fa-solid fa-star"></i>
-                                                <i class="fa-solid fa-star"></i>
-                                                <i class="fa-solid fa-star"></i>
-                                                <i class="fa-regular fa-star "></i>
-                                                <i class="fa-regular fa-star "></i>
-                                            </div>
-                                            <h6>Price: <strong>£499</strong></h6>
-                                        </div>
-                                        <a class="btn button-color" href="#book">Book Now</a>
-                                    </div>
-                                </div>
-                            </article>
-                        </div>
-                    </div>
+                </form>
             </section>
 
-            <section class="explore">
-                <div class="container text-center mt-3 mb-3">
-                    <div class="row">
-                        <h1 class="explore-heading text-uppercase">The year to explore more</h1>
+            <section class="cards-section">
+                <h2 class="hidden-heading">lol</h2>
+                <div class="row" style="margin-top: 30px;">
+                    <div class="col-md-6 col-lg-4 py-3 py-lg-0">
+                        <!-- Card 1 - Peru -->
+                        <article class="card">
+                            <img src="./assets/images/adventure/mont-blanc-trek.jpg" class="card-img-top h-50"
+                                alt="Picture of Mont Blanc">
+                            <div class="card-body h-50">
+                                <div class="card-body-title">
+                                    <h3 class="heading">Trekking in Peru</h3>
+                                    <p>
+                                        From The Inca Trail to Everest Base Camp, explore the world through trekking
+                                    </p>
+                                </div>
+                                <div class="card-bottom">
+                                    <div class="card-rating-price">
+                                        <div class="star">
+                                            <i class="fa-solid fa-star"></i>
+                                            <i class="fa-solid fa-star"></i>
+                                            <i class="fa-solid fa-star"></i>
+                                            <i class="fa-solid fa-star "></i>
+                                            <i class="fa-regular fa-star "></i>
+                                        </div>
+                                        <h6>Price: <strong>£499</strong></h6>
+                                    </div>
+                                    <a class="btn button-color" href="#book">Book Now</a>
+                                </div>
+                            </div>
+                        </article>
+                    </div>
+                    <div class="col-md-6 col-lg-4 py-3 py-lg-0">
+                        <!-- Card 2 - Namibia -->
+                        <article class="card">
+                            <img src="./assets/images/adventure/cycling-desert.jpeg" class="card-img-top h-50"
+                                alt="Picture of desert with cyclists">
+                            <div class="card-body h-50">
+                                <div class="card-body-title">
+                                    <h3 class="heading">Pro Bike Race in Namibia</h3>
+                                    <p>
+                                        Ride through vast dune deserts, along the Skeleton Coast, and sleep under
+                                        the Milky Way.
+                                    </p>
+                                </div>
+                                <div class="card-bottom">
+                                    <div class="card-rating-price">
+                                        <div class="star">
+                                            <i class="fa-solid fa-star"></i>
+                                            <i class="fa-solid fa-star"></i>
+                                            <i class="fa-solid fa-star"></i>
+                                            <i class="fa-regular fa-star "></i>
+                                            <i class="fa-regular fa-star "></i>
+                                        </div>
+                                        <h6>Price: <strong>£1,499</strong></h6>
+                                    </div>
+                                    <a class="btn button-color" href="#book">Book Now</a>
+                                </div>
+                            </div>
+                        </article>
+                    </div>
+
+                    <div class="col-md-6 col-lg-4 py-3 py-lg-0">
+                        <!-- Card 3 - Thailand -->
+                        <article class="card">
+                            <img src="./assets/images/landmarks/canoeing-thailand.jpeg" class="card-img-top h-50"
+                                alt="Picture of canoeing in Thailand">
+                            <div class="card-body h-50">
+                                <div class="card-body-title">
+                                    <h3 class="heading">Canoeing in Thailand</h3>
+                                    <p>
+                                        Kayak through caves and mangroves at Koh Panak and surreal rock formations
+                                        at Hong Island. Soak up views of James Bond Island then lounge on the beach
+                                        at Lawa Island.
+                                    </p>
+                                </div>
+                                <div class="card-bottom">
+                                    <div class="card-rating-price">
+                                        <div class="star">
+                                            <i class="fa-solid fa-star"></i>
+                                            <i class="fa-solid fa-star"></i>
+                                            <i class="fa-solid fa-star"></i>
+                                            <i class="fa-solid fa-star "></i>
+                                            <i class="fa-solid fa-star "></i>
+                                        </div>
+                                        <h6>Price: <strong>£799</strong></h6>
+                                    </div>
+                                    <a class="btn button-color" href="#book">Book Now</a>
+                                </div>
+                            </div>
+                        </article>
                     </div>
                 </div>
-                <div class="container-images">
-            </section>
+                <div class="row" style="margin-top: 30px;">
+                    <div class="col-md-6 col-lg-4 py-3 py-lg-0">
+                        <!-- Card 4 - Bali -->
+                        <article class="card">
+                            <img src="./assets/images/landmarks/snorkling-bali.jpeg" class="card-img-top h-50"
+                                alt="Underwater in Bali">
+                            <div class="card-body h-50">
+                                <div class="card-body-title">
+                                    <h3 class="heading">Snorkling in Bali</h3>
+                                    <p>
+                                        Far from the busy south coast, the peaceful coastal village of Pemuteran
+                                        lies on the border of West Bali National Park and serves as the main gateway
+                                        to Menjangan island, considered the best destination for snorkeling and
+                                        diving in all of Bali.
+                                    </p>
+                                </div>
+                                <div class="card-bottom">
+                                    <div class="card-rating-price">
+                                        <div class="star">
+                                            <i class="fa-solid fa-star"></i>
+                                            <i class="fa-solid fa-star"></i>
+                                            <i class="fa-solid fa-star"></i>
+                                            <i class="fa-regular fa-star "></i>
+                                            <i class="fa-regular fa-star "></i>
+                                        </div>
+                                        <h6>Price: <strong>£1,399</strong></h6>
+                                    </div>
+                                    <a class="btn button-color" href="#book">Book Now</a>
+                                </div>
+                            </div>
+                        </article>
+                    </div>
 
-            <section class="welcome-text mt-4">
-                <div class="container text-center">
-                    <div class="row">
-                        <h1 class="welcome-h mb-4"> LUXURY ADVENTURE TOURS & CYCLING HOLIDAYS </h1>
-                        <h5 class="welcome-h5 mt-3 mb-3">Welcome to Trek Travel. For more than 20 years, we have been
-                            helping
-                            people explore and experience the world by bike. </h5>
-                        <p class="welcome-p text-center">We're thrilled to unveil our exciting lineup of new trips
-                            designed
-                            to ignite your
-                            passion for exploration. Uncover the charm of the Loire Valley, immerse yourself in the
-                            beauty
-                            of
-                            Tuscany at an unbeatable price, and discover the breathtaking landscapes of Switzerland. Get
-                            ready
-                            to experience iconic regions with all-new itineraries, new thrilling gravel adventures, and
-                            explore
-                            more on your own with new self-guided destinations.</p>
-                        <button id="page-bottom-btn" class="btn button-color mt-3">New in 2024</button>
+                    <div class="col-md-6 col-lg-4 py-3 py-lg-0">
+                        <!-- Card 5 - Amalfi Coast -->
+                        <article class="card">
+                            <img src="./assets/images/landmarks/amalfi-coast1.jpeg" class="card-img-top h-50"
+                                alt="Picture of Amalfi Coast">
+                            <div class="card-body h-50">
+                                <div class="card-body-title">
+                                    <h3 class="heading">Amalfi Coast Trek</h3>
+                                    <p>
+                                        By far one of the most famous hiking trails in the Amalfi Coast, the Path of
+                                        the Gods, otherwise known as 'Sentiero degli Dei', was carved out by Greek
+                                        Settlers in as early as the 8th Century.
+                                    </p>
+                                </div>
+                                <div class="card-bottom">
+                                    <div class="card-rating-price">
+                                        <div class="star">
+                                            <i class="fa-solid fa-star"></i>
+                                            <i class="fa-solid fa-star"></i>
+                                            <i class="fa-solid fa-star"></i>
+                                            <i class="fa-solid fa-star "></i>
+                                            <i class="fa-regular fa-star "></i>
+                                        </div>
+                                        <h6>Price: <strong>£399</strong></h6>
+                                    </div>
+                                    <a class="btn button-color" href="#book">Book Now</a>
+                                </div>
+                            </div>
+                        </article>
+                    </div>
+
+                    <div class="col-md-6 col-lg-4 py-3 py-lg-0">
+                        <!-- Card 6 - Mount Toubkal -->
+                        <article class="card">
+                            <img src="./assets/images/landmarks/mount-toubkal1.jpeg" class="card-img-top h-50"
+                                alt="Picture of Mount Toubkal">
+                            <div class="card-body h-50">
+                                <div class="card-body-title">
+                                    <h3 class="heading">Climb Mount Toubkal</h3>
+                                    <p>
+                                        Visit well-known attractions like Giza Pyramid Complex, Great Sphinx of Giza
+                                        and Egyptian Museum.
+                                    </p>
+                                </div>
+                                <div class="card-bottom">
+                                    <div class="card-rating-price">
+                                        <div class="star">
+                                            <i class="fa-solid fa-star"></i>
+                                            <i class="fa-solid fa-star"></i>
+                                            <i class="fa-solid fa-star"></i>
+                                            <i class="fa-regular fa-star "></i>
+                                            <i class="fa-regular fa-star "></i>
+                                        </div>
+                                        <h6>Price: <strong>£499</strong></h6>
+                                    </div>
+                                    <a class="btn button-color" href="#book">Book Now</a>
+                                </div>
+                            </div>
+                        </article>
                     </div>
                 </div>
             </section>
 
+            <div class="container text-center mt-3 mb-3">
+                <div class="row">
+                    <h2 class="explore-heading text-uppercase">The year to explore more</h2>
+                </div>
+            </div>
+            <div class="container-images">
+
+                <section class="page-bottom">
+                    <div class="container text-center">
+                        <div class="row">
+                            <h1 class="welcome-h mb-4">LUXURY ADVENTURE TOURS & CYCLING HOLIDAYS</h1>
+                            <h5 class="welcome-h5 mt-3 mb-3">Welcome to Trek Travel. For more than 20 years, we have
+                                been
+                                helping
+                                people explore and experience the world by bike.</h5>
+                            <p class="welcome-p text-center">We're thrilled to unveil our exciting lineup of new trips
+                                designed
+                                to ignite your
+                                passion for exploration. Uncover the charm of the Loire Valley, immerse yourself in the
+                                beauty
+                                of
+                                Tuscany at an unbeatable price, and discover the breathtaking landscapes of Switzerland.
+                                Get
+                                ready
+                                to experience iconic regions with all-new itineraries, new thrilling gravel adventures,
+                                and
+                                explore
+                                more on your own with new self-guided destinations.</p>
+                            <button id="page-bottom-btn" class="btn button-color mt-3">New in 2024</button>
+                        </div>
+                    </div>
+                </section>
+            </div>
+        </div>
     </main>
 
     <!-- footer -->
@@ -320,7 +354,7 @@
                             <i class="fab fa-facebook-f"></i>
                         </a>
                         <!--Twitter-->
-                        <a href="https://www.witter.com/" target="_blank" class="text-muted me-4"
+                        <a href="https://www.twitter.com/" target="_blank" class="text-muted me-4"
                             aria-label="Twitter (opens in new tab)">
                             <i class="fab fa-twitter b-0"></i>
                         </a>
